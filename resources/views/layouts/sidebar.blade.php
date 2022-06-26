@@ -89,16 +89,6 @@
                             </p>
                         </a>
                 </li>
-                <li class="nav-item">
-                    <a href="{{ route('history') }}" class="nav-link {{Request::routeIs('history') ? 'active' : ''}}">
-                        {{-- <a href="/homepage/history"
-                            class="nav-link {{(\Request::segment(1) == 'homepage/history') ? 'active' : ''}}"> --}}
-                            <i class="nav-icon fas fa-clock"></i>
-                            <p>
-                                History
-                            </p>
-                        </a>
-                </li>
             </ul>
         </nav>
         <!-- /.sidebar-menu -->

@@ -47,14 +47,14 @@ Edit Hotel
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label>Price/Night</label>
+                                        <label>Rating</label>
                                         <input type="text" class="form-control" name="rating"
                                             value="{{ $hotel->rating }}">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label>Price/Night</label>
+                                        <label>Nomber of Rooms</label>
                                         <input type="text" class="form-control" name="jumlahkamar"
                                             value="{{ $hotel->jumlahkamar }}">
                                     </div>
